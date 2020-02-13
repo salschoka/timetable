@@ -1,0 +1,18 @@
+doctype html
+html
+	head
+		include head.pug
+	body
+		table
+			tr
+				th= '系統'
+				th= '千葉駅発車時刻'
+				th= '到着予想時刻'
+			for schedule in schedulelist
+				tr
+					if schedule.id > 1000
+						td= '千05'
+					else
+						td= '千02'
+					td= schedule.depart
+					td= schedule.arrive

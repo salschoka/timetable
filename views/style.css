@@ -1,0 +1,12 @@
+h1.header {
+	background-color: #223f6b;
+	color: white;
+	font-size: 3vmax;
+}
+table {
+	  width: 100%;
+}
+th {background-color: #182132;color: white;}
+tr {color: #EEE;font-size: 2vmax;}
+tr:nth-child(even) {background-color: #94b4b1;}
+tr:nth-child(odd) {background-color: #888;}
